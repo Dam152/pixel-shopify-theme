@@ -42,7 +42,13 @@
                 class="w-full h-full object-cover"
               >
             {% else %}
-              {{ 'image' | placeholder_svg_tag: 'w-full h-full object-cover object-center' }}
+              <img
+                src="{{ 'hero.jpeg' |  asset_url }}"
+                alt=" {{ block.settings.img_hero.alt }}"
+                width=" {{ block.settings.img_hero.width }}"
+                height=" {{ block.settings.img_hero.height }}"
+                class=" object-cover w-full h-full  "
+              >
             {% endif %}
         {% endcase %}
       {% endfor %}

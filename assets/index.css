@@ -1422,6 +1422,15 @@ video {
 .h-screen {
   height: 100vh;
 }
+.h-\[800px\] {
+  height: 800px;
+}
+.h-\[500px\] {
+  height: 500px;
+}
+.max-h-\[800px\] {
+  max-height: 800px;
+}
 .min-h-\[128px\] {
   min-height: 128px;
 }
@@ -1450,8 +1459,17 @@ video {
 .w-screen {
   width: 100vw;
 }
+.w-\[800px\] {
+  width: 800px;
+}
 .max-w-\[577px\] {
   max-width: 577px;
+}
+.max-w-\[800px\] {
+  max-width: 800px;
+}
+.max-w-\[500px\] {
+  max-width: 500px;
 }
 .flex-shrink {
   flex-shrink: 1;
