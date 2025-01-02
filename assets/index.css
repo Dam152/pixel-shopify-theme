@@ -1428,6 +1428,9 @@ video {
 .h-\[500px\] {
   height: 500px;
 }
+.h-\[434px\] {
+  height: 434px;
+}
 .max-h-\[800px\] {
   max-height: 800px;
 }
@@ -1587,6 +1590,10 @@ video {
 .object-center {
   -o-object-position: center;
      object-position: center;
+}
+.object-top {
+  -o-object-position: top;
+     object-position: top;
 }
 .px-4 {
   padding-left: 1rem;
@@ -1852,8 +1859,25 @@ video {
     height: 64px;
   }
 
+  .max-sm\:h-\[434px\] {
+    height: 434px;
+  }
+
+  .max-sm\:h-\[200px\] {
+    height: 200px;
+  }
+
+  .max-sm\:h-\[300px\] {
+    height: 300px;
+  }
+
   .max-sm\:gap-3 {
     gap: 0.75rem;
+  }
+
+  .max-sm\:object-top {
+    -o-object-position: top;
+       object-position: top;
   }
 
   .max-sm\:px-4 {
