@@ -1410,6 +1410,9 @@ video {
 .h-\[24px\] {
   height: 24px;
 }
+.h-\[33px\] {
+  height: 33px;
+}
 .h-\[80px\] {
   height: 80px;
 }
@@ -1418,9 +1421,6 @@ video {
 }
 .h-screen {
   height: 100vh;
-}
-.h-\[33px\] {
-  height: 33px;
 }
 .min-h-\[128px\] {
   min-height: 128px;
@@ -1449,12 +1449,6 @@ video {
 }
 .w-screen {
   width: 100vw;
-}
-.w-\[166px\] {
-  width: 166px;
-}
-.w-\[206px\] {
-  width: 206px;
 }
 .max-w-\[577px\] {
   max-width: 577px;
