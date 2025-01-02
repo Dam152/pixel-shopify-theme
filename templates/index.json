@@ -1,0 +1,26 @@
+{
+  "sections": {
+    "hero": {
+      "type": "hero-section",
+      "blocks": {
+        "title": {
+          "type": "title_hero"
+        },
+        "subtitle": {
+          "type": "subtitle_hero"
+        },
+        "button": {
+          "type": "hero_button"
+        },
+        "img": {
+          "type": "hero_img"
+        }
+      },
+      "block_order": ["title", "subtitle", "button", "img"]
+    },
+    "loghi": {
+      "type": "section_loghi"
+    }
+  },
+  "order": ["hero", "loghi"]
+}
