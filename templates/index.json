@@ -14,15 +14,26 @@
       "blocks": {
         "title": {
           "type": "title_hero",
-          "settings": {}
+          "settings": {
+            "title_hero": "FIND CLOTHES THAT MATCHES YOUR STYLE",
+            "title_color": "#000000"
+          }
         },
         "subtitle": {
           "type": "subtitle_hero",
-          "settings": {}
+          "settings": {
+            "subtitle_hero": "Browse through our diverse range of meticulously crafted garments, designed to bring out your individuality and cater to your sense of style.",
+            "subtitle_color": "rgba(0, 0, 0, 0.6)"
+          }
         },
         "button": {
           "type": "hero_button",
-          "settings": {}
+          "settings": {
+            "button_color": "#000",
+            "text_button": "Shop Now",
+            "buttontext_color": "#fff",
+            "url_button": "shopify://collections/all"
+          }
         },
         "img": {
           "type": "hero_img",
@@ -35,11 +46,54 @@
         "button",
         "img"
       ],
-      "settings": {}
+      "settings": {
+        "color_background": "#F2F0F1"
+      }
     },
     "loghi": {
       "type": "section_loghi",
-      "settings": {}
+      "blocks": {
+        "loghi_qUq93U": {
+          "type": "loghi",
+          "settings": {
+            "logo_item": "shopify://shop_images/versace.svg"
+          }
+        },
+        "loghi_cGm9mj": {
+          "type": "loghi",
+          "settings": {
+            "logo_item": "shopify://shop_images/zara-logo-1_1.svg"
+          }
+        },
+        "loghi_zKCxxf": {
+          "type": "loghi",
+          "settings": {
+            "logo_item": "shopify://shop_images/gucci-logo-1_1.svg"
+          }
+        },
+        "loghi_CkXU6m": {
+          "type": "loghi",
+          "settings": {
+            "logo_item": "shopify://shop_images/prada-logo-1_1.svg"
+          }
+        },
+        "loghi_QC3CjU": {
+          "type": "loghi",
+          "settings": {
+            "logo_item": "shopify://shop_images/Group.svg"
+          }
+        }
+      },
+      "block_order": [
+        "loghi_qUq93U",
+        "loghi_cGm9mj",
+        "loghi_zKCxxf",
+        "loghi_CkXU6m",
+        "loghi_QC3CjU"
+      ],
+      "settings": {
+        "section_background": "#000"
+      }
     }
   },
   "order": [
