@@ -80,10 +80,10 @@
         "padding_section": false,
         "color_section": "#F0F0F0",
         "title_section": "BROWSE BY dress STYLE",
-        "collection_one": "",
-        "collection_two": "",
-        "collection_three": "",
-        "collection_four": ""
+        "collection_one": "casual",
+        "collection_two": "formal",
+        "collection_three": "party",
+        "collection_four": "gym"
       }
     }
   },
