@@ -1347,10 +1347,6 @@ video {
 .z-\[1000\] {
   z-index: 1000;
 }
-.mx-4 {
-  margin-left: 1rem;
-  margin-right: 1rem;
-}
 .block {
   display: block;
 }
@@ -1414,9 +1410,6 @@ video {
 .hidden {
   display: none;
 }
-.\!hidden {
-  display: none !important;
-}
 .h-\[24px\] {
   height: 24px;
 }
@@ -1462,9 +1455,6 @@ video {
 }
 .w-screen {
   width: 100vw;
-}
-.\!w-screen {
-  width: 100vw !important;
 }
 .max-w-\[577px\] {
   max-width: 577px;
@@ -1580,10 +1570,6 @@ video {
   --tw-border-opacity: 1;
   border-color: rgb(203 213 225 / var(--tw-border-opacity, 1));
 }
-.border-black {
-  --tw-border-opacity: 1;
-  border-color: rgb(0 0 0 / var(--tw-border-opacity, 1));
-}
 .bg-\[\#F0F0F0\] {
   --tw-bg-opacity: 1;
   background-color: rgb(240 240 240 / var(--tw-bg-opacity, 1));
@@ -1650,9 +1636,8 @@ video {
   padding-top: 72px;
   padding-bottom: 72px;
 }
-.\!px-4 {
-  padding-left: 1rem !important;
-  padding-right: 1rem !important;
+.\!pr-8 {
+  padding-right: 2rem !important;
 }
 .pb-4 {
   padding-bottom: 1rem;
@@ -1662,24 +1647,6 @@ video {
 }
 .pt-12 {
   padding-top: 3rem;
-}
-.pr-4 {
-  padding-right: 1rem;
-}
-.pl-4 {
-  padding-left: 1rem;
-}
-.\!pr-4 {
-  padding-right: 1rem !important;
-}
-.\!pr-8 {
-  padding-right: 2rem !important;
-}
-.\!pr-12 {
-  padding-right: 3rem !important;
-}
-.\!pr-9 {
-  padding-right: 2.25rem !important;
 }
 .text-justify {
   text-align: justify;
@@ -1948,28 +1915,12 @@ video {
 }
 @media not all and (min-width: 640px) {
 
-  .max-sm\:block {
-    display: block;
-  }
-
   .max-sm\:hidden {
     display: none;
   }
 
   .max-sm\:h-\[64px\] {
     height: 64px;
-  }
-
-  .max-sm\:w-screen {
-    width: 100vw;
-  }
-
-  .max-sm\:\!w-screen {
-    width: 100vw !important;
-  }
-
-  .max-sm\:max-w-\[198px\] {
-    max-width: 198px;
   }
 
   .max-sm\:gap-3 {
@@ -1985,6 +1936,11 @@ video {
        object-position: top;
   }
 
+  .max-sm\:px-0 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
   .max-sm\:px-4 {
     padding-left: 1rem;
     padding-right: 1rem;
@@ -1993,11 +1949,6 @@ video {
   .max-sm\:py-\[48px\] {
     padding-top: 48px;
     padding-bottom: 48px;
-  }
-
-  .max-sm\:px-0 {
-    padding-left: 0px;
-    padding-right: 0px;
   }
 
   .max-sm\:transition-none {
@@ -2014,11 +1965,6 @@ video {
 
   .sm\:\!hidden {
     display: none !important;
-  }
-
-  .sm\:px-4 {
-    padding-left: 1rem;
-    padding-right: 1rem;
   }
 }
 @media (min-width: 768px) {
