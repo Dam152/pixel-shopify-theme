@@ -40,10 +40,15 @@
     "loghi": {
       "type": "section_loghi",
       "settings": {}
+    },
+    "collection": {
+      "type": "featured_collection",
+      "settings": {}
     }
   },
   "order": [
     "hero",
-    "loghi"
+    "loghi",
+    "collection"
   ]
 }

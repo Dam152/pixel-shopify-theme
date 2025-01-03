@@ -3421,6 +3421,24 @@ var module_default = src_default;
 
 /***/ }),
 
+/***/ "./assets/featured-collection-slider.js":
+/*!**********************************************!*\
+  !*** ./assets/featured-collection-slider.js ***!
+  \**********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var swiper_bundle__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! swiper/bundle */ "./node_modules/swiper/swiper-bundle.mjs");
+/* harmony import */ var swiper_css_bundle__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! swiper/css/bundle */ "./node_modules/swiper/swiper-bundle.css");
+
+
+var swiper = new swiper_bundle__WEBPACK_IMPORTED_MODULE_0__["default"](".featured-colection-slider", {
+  slidesPerView: 1.3,
+  spaceBetween: 16
+});
+
+/***/ }),
+
 /***/ "./assets/loghi-slider.js":
 /*!********************************!*\
   !*** ./assets/loghi-slider.js ***!
@@ -3464,8 +3482,8 @@ var swiper = new swiper_bundle__WEBPACK_IMPORTED_MODULE_0__["default"](".loghi-s
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var alpinejs__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! alpinejs */ "./node_modules/alpinejs/dist/module.esm.js");
-/* harmony import */ var swiper_bundle__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! swiper/bundle */ "./node_modules/swiper/swiper-bundle.mjs");
-/* harmony import */ var _assets_loghi_slider_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../assets/loghi-slider.js */ "./assets/loghi-slider.js");
+/* harmony import */ var _assets_loghi_slider_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../assets/loghi-slider.js */ "./assets/loghi-slider.js");
+/* harmony import */ var _assets_featured_collection_slider_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../assets/featured-collection-slider.js */ "./assets/featured-collection-slider.js");
 
 
 
