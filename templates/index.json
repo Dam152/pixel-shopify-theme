@@ -14,26 +14,15 @@
       "blocks": {
         "title": {
           "type": "title_hero",
-          "settings": {
-            "title_hero": "FIND CLOTHES THAT MATCHES YOUR STYLE",
-            "title_color": "#000000"
-          }
+          "settings": {}
         },
         "subtitle": {
           "type": "subtitle_hero",
-          "settings": {
-            "subtitle_hero": "Browse through our diverse range of meticulously crafted garments, designed to bring out your individuality and cater to your sense of style.",
-            "subtitle_color": "rgba(0, 0, 0, 0.6)"
-          }
+          "settings": {}
         },
         "button": {
           "type": "hero_button",
-          "settings": {
-            "button_color": "#000",
-            "text_button": "Shop Now",
-            "buttontext_color": "#fff",
-            "url_button": "shopify://collections/all"
-          }
+          "settings": {}
         },
         "img": {
           "type": "hero_img",
@@ -46,39 +35,25 @@
         "button",
         "img"
       ],
-      "settings": {
-        "color_background": "#F2F0F1"
-      }
+      "settings": {}
     },
     "loghi": {
       "type": "section_loghi",
-      "settings": {
-        "section_background": "#000"
-      }
+      "settings": {}
     },
     "collection": {
       "type": "featured_collection",
-      "settings": {
-        "featured_collection": "new-arrivals",
-        "limit_collection": 4,
-        "button_collection_text": "View More",
-        "button_collection_seprate": true
-      }
+      "settings": {}
     },
-    "featured_collection_XWCd6k": {
-      "type": "featured_collection",
-      "settings": {
-        "featured_collection": "top-selling",
-        "limit_collection": 4,
-        "button_collection_text": "View More",
-        "button_collection_seprate": false
-      }
+    "featuredCollectionsList": {
+      "type": "featured_collections_list",
+      "settings": {}
     }
   },
   "order": [
     "hero",
     "loghi",
     "collection",
-    "featured_collection_XWCd6k"
+    "featuredCollectionsList"
   ]
 }
