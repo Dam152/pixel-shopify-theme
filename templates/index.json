@@ -14,15 +14,26 @@
       "blocks": {
         "title": {
           "type": "title_hero",
-          "settings": {}
+          "settings": {
+            "title_hero": "FIND CLOTHES THAT MATCHES YOUR STYLE",
+            "title_color": "#000000"
+          }
         },
         "subtitle": {
           "type": "subtitle_hero",
-          "settings": {}
+          "settings": {
+            "subtitle_hero": "Browse through our diverse range of meticulously crafted garments, designed to bring out your individuality and cater to your sense of style.",
+            "subtitle_color": "rgba(0, 0, 0, 0.6)"
+          }
         },
         "button": {
           "type": "hero_button",
-          "settings": {}
+          "settings": {
+            "button_color": "#000",
+            "text_button": "Shop Now",
+            "buttontext_color": "#fff",
+            "url_button": "shopify://collections/all"
+          }
         },
         "img": {
           "type": "hero_img",
@@ -35,19 +46,36 @@
         "button",
         "img"
       ],
-      "settings": {}
+      "settings": {
+        "color_background": "#F2F0F1"
+      }
     },
     "loghi": {
       "type": "section_loghi",
-      "settings": {}
+      "settings": {
+        "section_background": "#000"
+      }
     },
     "collection": {
       "type": "featured_collection",
-      "settings": {}
+      "settings": {
+        "featured_collection": "new-arrivals",
+        "limit_collection": 4,
+        "button_collection_text": "View More",
+        "button_collection_seprate": true
+      }
     },
     "featuredCollectionsList": {
       "type": "featured_collections_list",
-      "settings": {}
+      "settings": {
+        "padding_section": false,
+        "color_section": "#F0F0F0",
+        "title_section": "BROWSE BY dress STYLE",
+        "collection_one": "",
+        "collection_two": "",
+        "collection_three": "",
+        "collection_four": ""
+      }
     }
   },
   "order": [
