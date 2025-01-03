@@ -65,16 +65,25 @@
         "button_collection_seprate": true
       }
     },
+    "featured_collection_hJPjYm": {
+      "type": "featured_collection",
+      "settings": {
+        "featured_collection": "top-selling",
+        "limit_collection": 4,
+        "button_collection_text": "View More",
+        "button_collection_seprate": false
+      }
+    },
     "featuredCollectionsList": {
       "type": "featured_collections_list",
       "settings": {
         "padding_section": false,
         "color_section": "#F0F0F0",
         "title_section": "BROWSE BY dress STYLE",
-        "collection_one": "",
-        "collection_two": "",
-        "collection_three": "",
-        "collection_four": ""
+        "collection_one": "casual",
+        "collection_two": "formal",
+        "collection_three": "party",
+        "collection_four": "party"
       }
     }
   },
@@ -82,6 +91,7 @@
     "hero",
     "loghi",
     "collection",
+    "featured_collection_hJPjYm",
     "featuredCollectionsList"
   ]
 }
